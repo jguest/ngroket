@@ -1,6 +1,6 @@
 ## ngroket
 
-This is a simple cl tool for quickly exposing private websockets; it uses [ws][https://github.com/einaros/ws] to create proxy sockets and [ngrok][https://ngrok.com/] to expose them. Make sure you have _node.js_, _npm_, and _ngrok_ installed. If not, the instructions below include a setup using [homebrew][http://brew.sh/] for Mac OS X. Note: you'll need an auth key from ngrok to expose non-http services (it's free, just sign up).
+This is a simple cl tool for quickly exposing private websockets; it uses [ws](https://github.com/einaros/ws) to create proxy sockets and [ngrok](https://ngrok.com/) to expose them. Make sure you have _node.js_, _npm_, and _ngrok_ installed. If not, the instructions below include a setup using [homebrew](http://brew.sh/) for Mac OS X. Note: you'll need an auth key from ngrok to expose non-http services (it's free, just sign up).
 
 Installation:
 ```bash
