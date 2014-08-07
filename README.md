@@ -6,14 +6,13 @@ Installation:
 ```bash
 $ brew install ngrok
 $ brew install node
-$ git clone example.git
-$ cd /example/path
+$ git clone https://github.com/jguest/ngroket.git
+$ cd ngroket/
 $ npm install
-$ chmod u+x app.js
-$ ./app.js -h
+$ ./ngroket.js -h
 ```
 Example usage:
 ```bash
 $ <command> [auth_key] [socket] [...]
-$ ./app.js xxxxxx 10.0.1.30 10.0.1.11
+$ ./ngroket.js xxxxxx 10.0.1.30 10.0.1.11
 ```

@@ -1,10 +1,5 @@
 #!/usr/bin/env node
 
-// var http = require('http'), 
-// 	express = require('express'),
-// 	app = express(),
-// 	server = http.createServer(app);
-
 var args = process.argv.slice(2),
 	sys = require('sys'),
 	spawn = require('child_process').spawn,
@@ -65,14 +60,10 @@ function proxy_socket(socket, socketCount, cb) {
 
 		remotews.on('close', function() {});
 		remotews.on('error', function(e) {});
-			
+
 		ws.on('close', function() {});
 		ws.on('error', function(e) {});	
 	});
 
 	cb("socket" + socketCount, proxy_port);
 }
-
-// server.listen(8080, function() {
-// 	console.log('listening on %d', server.address().port);
-// })
