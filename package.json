@@ -1,0 +1,10 @@
+{
+  "name": "ngroket",
+  "description": "private websocket exposing",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "ws": "0.4.x",
+    "yamljs": "0.1.x"
+  }
+}
